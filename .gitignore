@@ -1,0 +1,39 @@
+# Solidity-specific ignores
+/build/
+/node_modules/
+/.openzeppelin/
+/artifacts/
+/cache/
+/coverage/
+/typechain/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Hardhat and Truffle artifacts
+artifacts/
+cache/
+coverage/
+typechain/
+
+# Local Netlify folder
+.netlify
+
+# MacOS-specific files
+.DS_Store

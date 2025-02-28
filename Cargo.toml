@@ -15,3 +15,6 @@ inkwell = "0.2.0" # Solidity/Wasm support
 # Blockchain Integration
 yogachain-core = { path = "../core" }
 yogachain-networking = { path = "../networking" }
+
+# Shared Common Dependencies
+yogachain-common = { path = "../yogachain-common" }

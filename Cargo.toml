@@ -1,0 +1,17 @@
+[package]
+name = "yogachain-contracts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# Smart Contract Execution
+wasmer = "3.0" # WebAssembly execution
+inkwell = "0.2.0" # Solidity/Wasm support
+
+# Blockchain Integration
+yogachain-core = { path = "../core" }
+yogachain-networking = { path = "../networking" }
